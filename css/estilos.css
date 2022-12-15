@@ -1,0 +1,77 @@
+#app,
+.crear-producto,
+.modificar-producto {
+    background:linear-gradient(to bottom, rgba(188,132,126,0.8) 0%,rgba(170,58,56,0.5) 100%), url(../img/fondotablas.jpg) no-repeat center;
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.card-title {
+    height:60px;
+}
+#app h1{
+    padding:20px 0;
+}
+td .btn {
+    margin-left: 2px;
+    margin: 3px;
+}
+.table {
+    --bs-table-striped-color: rgb(73, 72, 72)!important;
+    color:rgb(73, 72, 72)!important;
+}
+.table-light {
+    --bs-table-bg: #ee9f9c !important;
+    --bs-table-striped-bg:#e6adab !important;
+}
+.crear-producto form,
+.modificar-producto form {
+    padding: 30px 0;
+}
+.crear-producto label {
+    color:#fff !important;
+}
+.encabezado,
+.encabezado-modificarproductos,
+.encabezado-crearproductos {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+    max-width: 100%;
+    background-position: center;
+    opacity: .7;
+    display: flex; 
+    align-items: flex-end;
+    justify-content: space-around;
+    background-color:#fff;    
+}
+.encabezado-crearproductos,
+.encabezado-modificarproductos {     
+    background-color:#fff;    
+
+}
+.encabezado-crearproductos h3,
+.encabezado-modificarproductos h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    font-weight: lighter;
+    text-align: center;
+    color: #E08582;
+    margin: 0 auto;
+    text-shadow: 1px 1px 1px grey;
+    padding-bottom: 40px;
+    position: relative;
+}
+.crearnuevo {
+    margin:0 auto;
+    display: block;
+    text-align: center;
+    width:max-content;
+}
+
+@media only screen and (max-width: 780px) {
+    main {
+        margin:1% 0% !important;
+    }
+}
